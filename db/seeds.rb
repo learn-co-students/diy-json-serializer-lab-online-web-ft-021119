@@ -23,3 +23,5 @@ end
   order.products << Product.find(Product.all.collect(&:id).sample)
 end
 
+Product.create(:name => "Samsung note8", :price => 800, :inventory => 30, :description => "The newest phone that samsung has ever produced as well as the smartest with more options that any cell phone in the market.")
+Product.create(:name => "Samsung Galaxy8", :price => 850, :inventory => 24, :description => "The most popular smrt phone thart samsung has ever produced as well as the best looking one that is slickier than any other phones.")
